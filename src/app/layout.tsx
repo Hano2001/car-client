@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header className="flex flex-row items-center gap-2 p-2">
-          <Image src={"/vehicle.png"} width={48} height={48} alt="Logo" />
+          <Image src={"/logo.png"} width={48} height={48} alt="Logo" />
           <h1>¡Los mejores carros!</h1>
         </header>
         {children}
